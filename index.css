@@ -1,0 +1,48 @@
+body{
+    background:#24353f;
+}
+.group {
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+
+.form-control:focus {
+  
+    border-color: #80bdff;
+    outline: 0;
+     
+    }
+    input:focus, textarea:focus {
+        box-shadow: 0 0 0 0 transparent !important;
+    }
+    input{
+        background-color: transparent!important;
+        color: #fff !important;
+    }
+    ::placeholder{
+        color: #fff !important;
+    }
+h1 {
+    color: rgb(23, 162, 184);}
+     a{
+         text-decoration: none;
+    }
+    .a1:hover {
+        text-decoration: underline;
+    } 
+    .btn-outline-info:hover {
+        color: #fff;
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+        transition: 0.5s; 
+    }
+
+    #exist{
+        color:pink;
+    }
+    #wrong{
+        color:pink;
+    }
+    .btn-outline-warning:hover {
+        background-color: rgb(23, 162, 184);
+        transition: 0.5s;   
+    }
